@@ -127,10 +127,7 @@
 <div class="overlay"></div>
 <div class="search-overlay"></div>
 
-<script src="../node_modules/swiper/swiper-bundle.min.js"></script>
-<script src="./scripts/app.js"></script>
-<script type="module" src="./scripts/slider.js"></script>
-<script src="./scripts/timer.js"></script>
+<?php wp_footer(); ?>
 </body>
 
 </html>

@@ -37,7 +37,7 @@
         <div
             class="flex items-center justify-evenly flex-wrap mt-12 child:mb-8 gap-x-8 child:items-center child:flex-col child:duration-300 child:cursor-pointer child:gap-y-1 child:text-gray-800 child:dark:text-gray-300 child:relative">
             <a href="shop.html" class="group flex">
-                <img src="./images/category/5.png"
+                <img src="<?php echo THEME_DIR?>/public/images/category/5.png"
                      class="w-[100px] h-[100px] lg:w-[120px] lg:h-[120px] object-cover group-hover:grayscale group-hover:opacity-90 duration-300"
                      alt="category1" />
                 <p class="pt-1 text-sm lg:text-lg line-clamp-1">
@@ -45,7 +45,7 @@
                 </p>
             </a>
             <a href="shop.html" class="group flex">
-                <img src="./images/category/6.png"
+                <img src="<?php echo THEME_DIR?>/public/images/category/6.png"
                      class="w-[100px] h-[100px] lg:w-[120px] lg:h-[120px] object-cover group-hover:grayscale group-hover:opacity-90 duration-300"
                      alt="category1" />
                 <p class="pt-1 text-sm lg:text-lg line-clamp-1">
@@ -53,7 +53,7 @@
                 </p>
             </a>
             <a href="shop.html" class="group flex">
-                <img src="./images/category/7.png"
+                <img src="<?php echo THEME_DIR?>/public/images/category/7.png"
                      class="w-[100px] h-[100px] lg:w-[120px] lg:h-[120px] object-cover group-hover:grayscale group-hover:opacity-90 duration-300"
                      alt="category1" />
                 <p class="pt-1 text-sm lg:text-lg line-clamp-1">
@@ -61,7 +61,7 @@
                 </p>
             </a>
             <a href="shop.html" class="group flex">
-                <img src="./images/category/8.png"
+                <img src="<?php echo THEME_DIR?>/public/images/category/8.png"
                      class="w-[100px] h-[100px] lg:w-[120px] lg:h-[120px] object-cover group-hover:grayscale group-hover:opacity-90 duration-300"
                      alt="category1" />
                 <p class="pt-1 text-sm lg:text-lg line-clamp-1">
@@ -69,7 +69,7 @@
                 </p>
             </a>
             <a href="shop.html" class="group flex">
-                <img src="./images/category/9.png"
+                <img src="<?php echo THEME_DIR?>/public/images/category/9.png"
                      class="w-[100px] h-[100px] lg:w-[120px] lg:h-[120px] object-cover group-hover:grayscale group-hover:opacity-90 duration-300"
                      alt="category1" />
                 <p class="pt-1 text-sm lg:text-lg line-clamp-1">
@@ -78,14 +78,14 @@
 
             </a>
             <a href="shop.html" class="group flex">
-                <img src="./images/category/10.png"
+                <img src="<?php echo THEME_DIR?>/public/images/category/10.png"
                      class="w-[100px] h-[100px] lg:w-[120px] lg:h-[120px] object-cover group-hover:grayscale group-hover:opacity-90 duration-300"
                      alt="category1" />
                 <p class="pt-1 text-sm lg:text-lg line-clamp-1">
                     گیفت کارت
                 </p>
                 <a href="shop.html" class="group hidden md:flex">
-                    <img src="./images/category/11.png"
+                    <img src="<?php echo THEME_DIR?>/public/images/category/11.png"
                          class="w-[100px] h-[100px] lg:w-[120px] lg:h-[120px] object-cover group-hover:grayscale group-hover:opacity-90 duration-300"
                          alt="category1" />
                     <p class="pt-1 text-sm lg:text-lg line-clamp-1">
@@ -103,7 +103,7 @@
                 <div class="swiper-wrapper">
                     <!-- item -->
                     <div class="swiper-slide amazing-card">
-                        <img class="w-28 h-28" src="./images/slider/Amazings.svg" alt="">
+                        <img class="w-28 h-28" src="<?php echo THEME_DIR?>/public/images/slider/Amazings.svg" alt="">
                         <!-- TIMER -->
                         <div class="flex items-center gap-x-2">
                             <span class="timer-box" id="seconds">00</span>
@@ -138,7 +138,7 @@
                         </div>
                         <!-- product img -->
                         <a href="product-details.html">
-                            <img class="small-card_img" src="./images/products/3.png" alt="">
+                            <img class="small-card_img" src="<?php echo THEME_DIR?>/public/images/products/3.png" alt="">
                         </a>
                         <!--  product footer -->
                         <div class="space-y-2">
@@ -175,7 +175,7 @@
                         </div>
                         <!-- product img -->
                         <a href="product-details.html">
-                            <img class="small-card_img" src="./images/products/5.webp" alt="">
+                            <img class="small-card_img" src="<?php echo THEME_DIR?>/public/images/products/5.webp" alt="">
                         </a>
                         <!--  product footer -->
                         <div class="space-y-2">
@@ -204,7 +204,7 @@
                             </span>
                         <!-- product img -->
                         <a href="product-details.html">
-                            <img class="small-card_img" src="./images/products/1.png" alt="">
+                            <img class="small-card_img" src="<?php echo THEME_DIR?>/public/images/products/1.png" alt="">
                         </a>
                         <!--  product footer -->
                         <div class="space-y-2">
@@ -233,7 +233,7 @@
                             </span>
                         <!-- product img -->
                         <a href="product-details.html">
-                            <img class="small-card_img" src="./images/products/7.webp" alt="">
+                            <img class="small-card_img" src="<?php echo THEME_DIR?>/public/images/products/7.webp" alt="">
                         </a>
                         <!--  product footer -->
                         <div class="space-y-2">
@@ -262,7 +262,7 @@
                             </span>
                         <!-- product img -->
                         <a href="product-details.html">
-                            <img class="small-card_img" src="./images/products/3.png" alt="">
+                            <img class="small-card_img" src="<?php echo THEME_DIR?>/public/images/products/3.png" alt="">
                         </a>
                         <!--  product footer -->
                         <div class="space-y-2">
@@ -291,7 +291,7 @@
                             </span>
                         <!-- product img -->
                         <a href="product-details.html">
-                            <img class="small-card_img" src="./images/products/3.png" alt="">
+                            <img class="small-card_img" src="<?php echo THEME_DIR?>/public/images/products/3.png" alt="">
                         </a>
                         <!--  product footer -->
                         <div class="space-y-2">
@@ -422,10 +422,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/1.png"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/1.png"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/2.png" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/2.png" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -498,10 +498,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/3.png"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/3.png"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/4.png" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/4.png" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -574,10 +574,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/5.webp"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/5.webp"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/6.webp" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/6.webp" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -650,10 +650,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/7.webp"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/7.webp"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/8.webp" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/8.webp" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -726,10 +726,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/1.png"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/1.png"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/2.png" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/2.png" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -802,10 +802,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/3.png"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/3.png"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/4.png" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/4.png" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -846,11 +846,11 @@
     <section
         class="mx-4 lg:container mt-10 lg:mt-20 flex flex-col lg:flex-row items-center gap-5 child:rounded-xl child:overflow-hidden">
         <a href="shop.html" class="group">
-            <img src="./images/banner/1.webp" class="group-hover:scale-105 transition-transform duration-300"
+            <img src="<?php echo THEME_DIR?>/public/images/banner/1.webp" class="group-hover:scale-105 transition-transform duration-300"
                  alt="">
         </a>
         <a href="shop.html" class="group">
-            <img src="./images/banner/2.webp" class="group-hover:scale-105 transition-transform duration-300"
+            <img src="<?php echo THEME_DIR?>/public/images/banner/2.webp" class="group-hover:scale-105 transition-transform duration-300"
                  alt="">
         </a>
     </section>
@@ -943,10 +943,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/1.png"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/1.png"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/2.png" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/2.png" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -1019,10 +1019,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/3.png"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/3.png"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/4.png" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/4.png" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -1095,10 +1095,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/5.webp"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/5.webp"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/6.webp" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/6.webp" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -1171,10 +1171,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/7.webp"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/7.webp"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/8.webp" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/8.webp" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -1247,10 +1247,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/1.png"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/1.png"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/2.png" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/2.png" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -1323,10 +1323,10 @@
                     </div>
                     <!-- product img -->
                     <a href="product-details.html">
-                        <img class="product-card_img group-hover:opacity-0 absolute" src="./images/products/3.png"
+                        <img class="product-card_img group-hover:opacity-0 absolute" src="<?php echo THEME_DIR?>/public/images/products/3.png"
                              alt="">
                         <img class="product-card_img opacity-0 group-hover:opacity-100"
-                             src="./images/products/4.png" alt="">
+                             src="<?php echo THEME_DIR?>/public/images/products/4.png" alt="">
                     </a>
                     <!--  product footer -->
                     <div class="space-y-2">
@@ -1411,25 +1411,25 @@
             <div class="swiper-wrapper py-5 w-full">
                 <!-- PRODUCT ITEM -->
                 <div class="swiper-slide brand-card group">
-                    <img src="./images/brand/1.png" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/brand/1.png" alt="">
                 </div>
                 <div class="swiper-slide brand-card group">
-                    <img src="./images/brand/6.webp" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/brand/6.webp" alt="">
                 </div>
                 <div class="swiper-slide brand-card group">
-                    <img src="./images/brand/5.webp" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/brand/5.webp" alt="">
                 </div>
                 <div class="swiper-slide brand-card group">
-                    <img src="./images/brand/4.webp" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/brand/4.webp" alt="">
                 </div>
                 <div class="swiper-slide brand-card group">
-                    <img src="./images/brand/3.webp" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/brand/3.webp" alt="">
                 </div>
                 <div class="swiper-slide brand-card group">
-                    <img src="./images/brand/2.png" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/brand/2.png" alt="">
                 </div>
                 <div class="swiper-slide brand-card group">
-                    <img src="./images/brand/7.png" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/brand/7.png" alt="">
                 </div>
             </div>
         </div>
@@ -1450,19 +1450,19 @@
                     <!-- PRODUCT ITEM -->
                     <div class="swiper-slide hottest-slide">
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/1.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/1.png" alt="">
                             <p class="hottest-slide_text ">
                                 مانیتور گیمینگ ایسوس مدل ROG Swift PG259QN
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/3.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/3.png" alt="">
                             <p class="hottest-slide_text ">
                                 کنسول بازی پلی استیشن 5 نسخه دیسک دار
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/7.webp" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/7.webp" alt="">
                             <p class="hottest-slide_text ">
                                 ساعت هوشمند سامسونگ مدل Galaxy Watch 6
                             </p>
@@ -1470,19 +1470,19 @@
                     </div>
                     <div class="swiper-slide hottest-slide">
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/1.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/1.png" alt="">
                             <p class="hottest-slide_text ">
                                 لپ تاپ 14 اینچی لنوو مدل ThinkPad X1 Carbon
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/3.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/3.png" alt="">
                             <p class="hottest-slide_text ">
                                 گوشی موبایل سامسونگ مدل Galaxy S23 Ultra
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/7.webp" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/7.webp" alt="">
                             <p class="hottest-slide_text ">
                                 هدفون بی‌سیم اپل مدل AirPods Pro 2
                             </p>
@@ -1490,19 +1490,19 @@
                     </div>
                     <div class="swiper-slide hottest-slide">
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/1.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/1.png" alt="">
                             <p class="hottest-slide_text ">
                                 مانیتور گیمینگ ایسوس مدل ROG Swift PG259QN
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/3.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/3.png" alt="">
                             <p class="hottest-slide_text ">
                                 کنسول بازی پلی استیشن 5 نسخه دیسک دار
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/7.webp" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/7.webp" alt="">
                             <p class="hottest-slide_text ">
                                 ساعت هوشمند سامسونگ مدل Galaxy Watch 6
                             </p>
@@ -1510,19 +1510,19 @@
                     </div>
                     <div class="swiper-slide hottest-slide">
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/1.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/1.png" alt="">
                             <p class="hottest-slide_text ">
                                 لپ تاپ 14 اینچی لنوو مدل ThinkPad X1 Carbon
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/3.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/3.png" alt="">
                             <p class="hottest-slide_text ">
                                 گوشی موبایل سامسونگ مدل Galaxy S23 Ultra
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/7.webp" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/7.webp" alt="">
                             <p class="hottest-slide_text ">
                                 هدفون بی‌سیم اپل مدل AirPods Pro 2
                             </p>
@@ -1530,19 +1530,19 @@
                     </div>
                     <div class="swiper-slide hottest-slide">
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/1.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/1.png" alt="">
                             <p class="hottest-slide_text ">
                                 مانیتور گیمینگ ایسوس مدل ROG Swift PG259QN
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/3.png" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/3.png" alt="">
                             <p class="hottest-slide_text ">
                                 کنسول بازی پلی استیشن 5 نسخه دیسک دار
                             </p>
                         </a>
                         <a href="product-details.html" class="hottest-slide_link ">
-                            <img class="hottest-slide_img " src="./images/products/7.webp" alt="">
+                            <img class="hottest-slide_img " src="<?php echo THEME_DIR?>/public/images/products/7.webp" alt="">
                             <p class="hottest-slide_text ">
                                 ساعت هوشمند سامسونگ مدل Galaxy Watch 6
                             </p>
@@ -1613,7 +1613,7 @@
                 <!-- ITEM -->
                 <div class="swiper-slide group article-box">
                     <div class="relative overflow-hidden rounded-lg">
-                        <img src="./images/articles/1.webp" class="article-box_img" alt="" />
+                        <img src="<?php echo THEME_DIR?>/public/images/articles/1.webp" class="article-box_img" alt="" />
                         <div
                             class="absolute opacity-0 left-0 top-0 bottom-0 right-0 bg-black/60 flex items-center justify-center group-hover:opacity-100 duration-300 transition-all rounded-bl-3xl rounded-tr-3xl">
                             <a href="./article-details.html"
@@ -1647,7 +1647,7 @@
                 <!-- ITEM -->
                 <div class="swiper-slide group article-box">
                     <div class="relative overflow-hidden rounded-lg">
-                        <img src="./images/articles/2.webp" class="article-box_img" alt="" />
+                        <img src="<?php echo THEME_DIR?>/public/images/articles/2.webp" class="article-box_img" alt="" />
                         <div
                             class="absolute opacity-0 left-0 top-0 bottom-0 right-0 bg-black/60 flex items-center justify-center group-hover:opacity-100 duration-300 transition-all rounded-bl-3xl rounded-tr-3xl">
                             <a href="./article-details.html"
@@ -1681,7 +1681,7 @@
                 <!-- ITEM -->
                 <div class="swiper-slide group article-box">
                     <div class="relative overflow-hidden rounded-lg">
-                        <img src="./images/articles/3.webp" class="article-box_img" alt="" />
+                        <img src="<?php echo THEME_DIR?>/public/images/articles/3.webp" class="article-box_img" alt="" />
                         <div
                             class="absolute opacity-0 left-0 top-0 bottom-0 right-0 bg-black/60 flex items-center justify-center group-hover:opacity-100 duration-300 transition-all rounded-bl-3xl rounded-tr-3xl">
                             <a href="./article-details.html"
@@ -1715,7 +1715,7 @@
                 <!-- ITEM -->
                 <div class="swiper-slide group article-box">
                     <div class="relative overflow-hidden rounded-lg">
-                        <img src="./images/articles/4.webp" class="article-box_img" alt="" />
+                        <img src="<?php echo THEME_DIR?>/public/images/articles/4.webp" class="article-box_img" alt="" />
                         <div
                             class="absolute opacity-0 left-0 top-0 bottom-0 right-0 bg-black/60 flex items-center justify-center group-hover:opacity-100 duration-300 transition-all rounded-bl-3xl rounded-tr-3xl">
                             <a href="./article-details.html"
@@ -1749,7 +1749,7 @@
                 <!-- ITEM -->
                 <div class="swiper-slide group article-box">
                     <div class="relative overflow-hidden rounded-lg">
-                        <img src="./images/articles/1.webp" class="article-box_img" alt="" />
+                        <img src="<?php echo THEME_DIR?>/public/images/articles/1.webp" class="article-box_img" alt="" />
                         <div
                             class="absolute opacity-0 left-0 top-0 bottom-0 right-0 bg-black/60 flex items-center justify-center group-hover:opacity-100 duration-300 transition-all rounded-bl-3xl rounded-tr-3xl">
                             <a href="./article-details.html"
@@ -1789,23 +1789,23 @@
         class="container w-full mt-10 lg:mt-20 flex flex-wrap items-center justify-between gap-6 child:text-sm child:gap-y-1 child:cursor-pointer">
         <!-- item -->
         <span class="flex-col items-center justify-center hidden md:flex">
-                <img class="w-14 h-14" src="./images/svg/1.svg " alt="">
+                <img class="w-14 h-14" src="<?php echo THEME_DIR?>/public/images/svg/1.svg " alt="">
                 <p class="text-gray-500 dark:text-gray-300">امکان تحویل اکسپرس</p>
             </span>
         <span class="flex flex-col items-center justify-center">
-                <img class="w-14 h-14" src="./images/svg/2.svg" alt="">
+                <img class="w-14 h-14" src="<?php echo THEME_DIR?>/public/images/svg/2.svg" alt="">
                 <p class="text-gray-500 dark:text-gray-300">ضمانت اصل بودن کالا</p>
             </span>
         <span class="flex flex-col items-center justify-center">
-                <img class="w-14 h-14" src="./images/svg/3.svg" alt="">
+                <img class="w-14 h-14" src="<?php echo THEME_DIR?>/public/images/svg/3.svg" alt="">
                 <p class="text-gray-500 dark:text-gray-300">ضمانت بازگشت کالا</p>
             </span>
         <span class="flex flex-col items-center justify-center">
-                <img class="w-14 h-14" src="./images/svg/4.svg" alt="">
+                <img class="w-14 h-14" src="<?php echo THEME_DIR?>/public/images/svg/4.svg" alt="">
                 <p class="text-gray-500 dark:text-gray-300">پشتیبانی 24 ساعته</p>
             </span>
         <span class="flex flex-col items-center justify-center">
-                <img class="w-14 h-14" src="./images/svg/5.svg" alt="">
+                <img class="w-14 h-14" src="<?php echo THEME_DIR?>/public/images/svg/5.svg" alt="">
                 <p class="text-gray-500 dark:text-gray-300">امکان پرداخت در محل</p>
             </span>
     </div>

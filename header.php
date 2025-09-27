@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="<?php echo THEME_DIR?>/styles/app.css">
-    <!-- link -->
-    <link rel="stylesheet" href="<?php echo THEME_DIR?>/node_modules/swiper/swiper-bundle.css">
+
+    <?php wp_head(); ?>
+
     <!-- ==========================  DARK MODE SCRIPT ============================= -->
     <script type="text/javascript">
         if (
@@ -412,7 +412,7 @@
                         <div class="grid grid-cols-12 gap-x-2 w-full py-4 cursor-pointer">
                             <!-- img -->
                             <div class="col-span-4 w-24 h-20">
-                                <img src="./images/products/5.webp" class="rounded-lg" alt="product">
+                                <img src="<?php echo THEME_DIR?>/public/images/products/5.webp" class="rounded-lg" alt="product">
                             </div>
                             <!-- detail -->
                             <div class="col-span-8 flex flex-col justify-between">
@@ -442,7 +442,7 @@
                         <div class="grid grid-cols-12 gap-x-2 w-full py-4 cursor-pointer">
                             <!-- img -->
                             <div class="col-span-4 w-24 h-20">
-                                <img src="./images/products/1.png" class="rounded-lg" alt="product">
+                                <img src="<?php echo THEME_DIR?>/public/images/products/1.png" class="rounded-lg" alt="product">
                             </div>
                             <!-- detail -->
                             <div class="col-span-8 flex flex-col justify-between">
@@ -848,7 +848,7 @@
                                             <span class="mobile-menu-category-badge">
                                                 موبایل
                                             </span>
-                                        <img src="./images/category/1.webp" class="h-28 w-full object-cover rounded"
+                                        <img src="<?php echo THEME_DIR?>/public/images/category/1.webp" class="h-28 w-full object-cover rounded"
                                              alt="">
                                     </div>
                                     <!-- Mobile SLIDE -->
@@ -933,7 +933,7 @@
                                             <span class="mobile-menu-category-badge">
                                                 لپ تاپ
                                             </span>
-                                        <img src="./images/category/2.jpg" class="h-28 w-full object-cover rounded"
+                                        <img src="<?php echo THEME_DIR?>/public/images/category/2.jpg" class="h-28 w-full object-cover rounded"
                                              alt="">
                                     </div>
                                     <div class="detail-category">
@@ -1017,7 +1017,7 @@
                                             <span class="mobile-menu-category-badge">
                                                 هدفون
                                             </span>
-                                        <img src="./images/category/4.webp" class="h-28 w-full object-cover rounded"
+                                        <img src="<?php echo THEME_DIR?>/public/images/category/4.webp" class="h-28 w-full object-cover rounded"
                                              alt="">
                                     </div>
                                     <div class="detail-category">
@@ -1102,7 +1102,7 @@
                                             <span class="mobile-menu-category-badge">
                                                 پرفروش ها
                                             </span>
-                                        <img src="./images/category/3.webp" class="h-28 w-full object-cover rounded"
+                                        <img src="<?php echo THEME_DIR?>/public/images/category/3.webp" class="h-28 w-full object-cover rounded"
                                              alt="">
                                     </div>
                                 </li>
@@ -1275,21 +1275,23 @@
         </li>
     </ul>
     </div>
+    
+    <?php if(is_front_page()):?>
     <!-- Slider -->
     <div class="px-3 lg:container group w-full mt-4 lg:mt-10">
         <div dir="rtl" class="swiper header-slider h-52 md:h-96 cursor-pointer">
             <div class="swiper-wrapper">
                 <a href="shop.html" class="swiper-slide">
-                    <img src="./images/slider/4.webp" class="rounded-xl" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/slider/4.webp" class="rounded-xl" alt="">
                 </a >
                 <a href="shop.html" class="swiper-slide">
-                    <img src="./images/slider/1.jpg" class="rounded-xl" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/slider/1.jpg" class="rounded-xl" alt="">
                 </a >
                 <a href="shop.html" class="swiper-slide">
-                    <img src="./images/slider/2.jpg" class="rounded-xl" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/slider/2.jpg" class="rounded-xl" alt="">
                 </a >
                 <a href="shop.html" class="swiper-slide">
-                    <img src="./images/slider/3.gif" class="rounded-xl" alt="">
+                    <img src="<?php echo THEME_DIR?>/public/images/slider/3.gif" class="rounded-xl" alt="">
                 </a >
             </div>
             <div class="swiper-pagination-wrapper">
@@ -1313,4 +1315,6 @@
 
         </div>
     </div>
+    
+    <?php endif; ?>
 </header>

@@ -29,10 +29,10 @@ function set_style_scripts():void
     wp_enqueue_style('karin-swiper',THEME_DIR.'/node_modules/swiper/swiper-bundle.css');
 
     //set js for theme
-    wp_enqueue_script('karin-swiper-js',THEME_DIR.'/node_modules/swiper/swiper-bundle.min.js');
-    wp_enqueue_script('karin-app-js',THEME_DIR.'/scripts/app.js');
-    wp_enqueue_script('karin-slider-js',THEME_DIR.'/scripts/slider.js');
-    wp_enqueue_script('karin-slider-js',THEME_DIR.'/scripts/timer.js');
+    wp_enqueue_script('karin-swiper-js',THEME_DIR.'/node_modules/swiper/swiper-bundle.min.js' , array(), '1.0', true );
+    wp_enqueue_script('karin-app-js',THEME_DIR.'/public/scripts/app.js', array(), '1.0',  true);
+    wp_enqueue_script('karin-slider-js',THEME_DIR.'/public/scripts/slider.js' , array(), '1.0', true);
+    wp_enqueue_script('karin-time-js',THEME_DIR.'/public/scripts/timer.js' , array(), '1.0',  true);
 
 }
 
